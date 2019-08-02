@@ -1,9 +1,12 @@
-# chorduroy
+<h1 align=center>🎸🎵</h1>
+<h3 align=center>chorduroy</h3>
+<h6 align=center>Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings</h6>
 
-Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings.
+---
 
-Guitar, ukulele, and mandolin-tested. (5s banjo support coming!)
+> Guitar, ukulele, and mandolin-tested. (5s banjo support coming!)
 
+# Example
 
 ```shell
 chorduroy -f X554X5 -o Am6.png
