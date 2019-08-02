@@ -30,3 +30,10 @@ chorduroy -f 232X -o ukeG.png
 
 <img src="docs/ukeG.png" width=150 />
 
+`chorduroy` will also intelligently guess when a diagram can be "offset" to show chord patterns higher on the fretboard:
+
+```
+chorduroy -f 787X -o fretOffset.png
+```
+
+<img src="docs/fretOffset.png" width=150 />
