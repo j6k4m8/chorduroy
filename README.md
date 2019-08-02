@@ -2,6 +2,8 @@
 
 Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings.
 
+Guitar, ukulele, and mandolin-tested. (5s banjo support coming!)
+
 
 ```shell
 chorduroy -f X554X5 -o Am6.png
