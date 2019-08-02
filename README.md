@@ -4,7 +4,7 @@
 
 ---
 
-> Guitar, ukulele, and mandolin-tested. (5s banjo support coming!)
+---
 
 # Example
 
@@ -42,3 +42,16 @@ chorduroy -f 787X -o fretOffset.png
 ```
 
 <img src="docs/fretOffset.png" width=150 />
+
+## Roadmap
+
+- [ ] Modifiable image size with commandline flags
+- [ ] Custom colors and toggleable alpha/transparency
+- [ ] SVG / PDF export
+- [ ] ASCII output
+- [ ] Web service to use online
+
+### Probably not planning on:
+- [ ] Barre notation. This is intended to indicate position, not tell you how to play.
+- [ ] Fingering suggestions. See above.
+- [ ] Instrument-specific notation
