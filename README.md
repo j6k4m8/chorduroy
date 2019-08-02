@@ -65,3 +65,8 @@ chorduroy -f 787X -o fretOffset.png
 - [ ] Barre notation. This is intended to indicate position, not tell you how to play.
 - [ ] Fingering suggestions. See above.
 - [ ] Instrument-specific notation
+
+## Bonus Theorbo Adom7
+
+<img src="https://user-images.githubusercontent.com/693511/62383817-b7466100-b51e-11e9-9e80-860fd7dd6ed7.png" width=200 />
+
