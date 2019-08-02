@@ -12,6 +12,10 @@
 
 ---
 
+# Downloads
+
+If you don't want to deal with compiling or managing the Go source, **you can download a binary built for your OS from the [releases page](https://github.com/j6k4m8/chorduroy/releases).**
+
 # Example
 
 ```shell
