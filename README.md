@@ -1,6 +1,6 @@
 # chorduroy
 
-Command-line tool to generate chord diagrams
+Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings.
 
 
 ```shell
