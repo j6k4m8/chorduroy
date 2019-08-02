@@ -2,6 +2,8 @@ package main
 
 import (
 	"flag"
+	"fmt"
+	"os"
 	"strconv"
 
 	"github.com/fogleman/gg"
@@ -53,9 +55,13 @@ func addFingering(str float64, fret float64, context gg.Context, stringCount flo
 
 func main() {
 	fingering := flag.String("f", "X554X5", "Fingering (from highest)")
-	outPath := flag.String("o", "diagram.png", "Path at which to save diagram")
+	outPath := flag.String("o", "", "Path at which to save diagram")
 	fretCount := flag.Float64("s", 6.0, "Number of frets to include")
 	flag.Parse()
+	if *outPath == "" {
+		fmt.Println("Need a -o path.")
+		os.Exit(1)
+	}
 	drawDiagram(*fingering, *fretCount, *outPath)
 }
 
