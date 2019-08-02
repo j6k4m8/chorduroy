@@ -54,14 +54,14 @@ func addFingering(str float64, fret float64, context gg.Context, stringCount flo
 func main() {
 	fingering := flag.String("f", "X554X5", "Fingering (from highest)")
 	outPath := flag.String("o", "diagram.png", "Path at which to save diagram")
+	fretCount := flag.Float64("s", 6.0, "Number of frets to include")
 	flag.Parse()
-	drawDiagram(*fingering, *outPath)
+	drawDiagram(*fingering, *fretCount, *outPath)
 }
 
-func drawDiagram(fingering string, path string) string {
+func drawDiagram(fingering string, fretCount float64, path string) string {
 	// Initialize the graphic context on an RGBA image
 	stringCount := float64(len(fingering))
-	const fretCount = 6.
 	gc := gg.NewContext(sX, sY)
 
 	gc.SetRGBA(0, 0, 0, 1)
