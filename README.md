@@ -1,7 +1,18 @@
-# chorduroy
+<h1 align=center>🎸🎵</h1>
+<h3 align=center>chorduroy</h3>
+<h6 align=center>Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings</h6>
 
-Command-line tool to generate chord diagrams for any stringed instrument of any number of frets and strings.
+---
 
+---
+
+---
+
+---
+
+---
+
+# Example
 
 ```shell
 chorduroy -f X554X5 -o Am6.png
@@ -37,3 +48,16 @@ chorduroy -f 787X -o fretOffset.png
 ```
 
 <img src="docs/fretOffset.png" width=150 />
+
+## Roadmap
+
+- [ ] Modifiable image size with commandline flags
+- [ ] Custom colors and toggleable alpha/transparency
+- [ ] SVG / PDF export
+- [ ] ASCII output
+- [ ] Web service to use online
+
+### Probably not planning on:
+- [ ] Barre notation. This is intended to indicate position, not tell you how to play.
+- [ ] Fingering suggestions. See above.
+- [ ] Instrument-specific notation
